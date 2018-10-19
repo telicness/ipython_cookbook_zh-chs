@@ -1,65 +1,41 @@
-# IPython Cookbook, Second Edition (2018)
 # IPython 操作指引, 第二版 (2018年)
 
-## Contents
+## 译序
+本书简直是一部关于Ipython交互式计算的百科全书。虽然每一部分都没有深入，但这更有助于读者了解Ipython生态的全貌。
+
 ## 目录 
 
-<!-- START_TOC -->
 
-### [Chapter 1 : A Tour of Interactive Computing with Jupyter and IPython](chapter01_basic)
 ### [第1章: 使用Jupyter和IPython的交互式计算之旅](chapter01_basic)
 
-* [1.1. Introducing IPython and the Jupyter Notebook](chapter01_basic/01_notebook.md)
 * [1.1. 介绍IPython与Jupyter Notebook](chapter01_basic/01_notebook.md)
-* [1.2. Getting started with exploratory data analysis in the Jupyter Notebook](chapter01_basic/02_pandas.md)
 * [1.2. 开始在Jupyter Notebook中进行探索性数据分析](chapter01_basic/02_pandas.md)
-* [1.3. Introducing the multidimensional array in NumPy for fast array computations](chapter01_basic/03_numpy.md)
 * [1.3. 在NumPy中引入多维数组，用于快速数组计算](chapter01_basic/03_numpy.md)
-* [1.4. Creating an IPython extension with custom magic commands](chapter01_basic/04_magic.md)
 * [1.4. 使用自定义魔法命令创建IPython扩展](chapter01_basic/04_magic.md)
-* [1.5. Mastering IPython's configuration system](chapter01_basic/05_config.md)
 * [1.5. 掌握IPython的配置系统](chapter01_basic/05_config.md)
-* [1.6. Creating a simple kernel for Jupyter](chapter01_basic/06_kernel.md)
 * [1.6. 为Jupyter创建一个简单的内核](chapter01_basic/06_kernel.md)
 
 
-### [Chapter 2 : Best practices in Interactive Computing](chapter02_best_practices)
 ### [第2章：交互计算的最佳实践](chapter02_best_practices)
 
-* [2.1. Learning the basics of the Unix shell](chapter02_best_practices/01_shell.md)
 * [2.1. 学习Unix Shell的基础知识](chapter02_best_practices/01_shell.md)
-* [2.2. Using the latest features of Python 3](chapter02_best_practices/02_py3.md)
 * [2.2. 使用Python 3的最新特性](chapter02_best_practices/02_py3.md)
-* [2.3. Learning the basics of the distributed version control system Git](chapter02_best_practices/03_git.md)
 * [2.3. 学习分布式版本控制系统Git的基础知识](chapter02_best_practices/03_git.md)
-* [2.4. A typical workflow with Git branching](chapter02_best_practices/04_git_advanced.md)
 * [2.4. Git分支的典型工作流程](chapter02_best_practices/04_git_advanced.md)
-* [2.5. Efficient interactive computing workflows with IPython](chapter02_best_practices/05_workflows.md)
 * [2.5. 基于IPython的高效交互计算工作流程](chapter02_best_practices/05_workflows.md)
-* [2.6. Ten tips for conducting reproducible interactive computing experiments](chapter02_best_practices/06_tips.md)
 * [2.6. 进行可重复交互计算实验的十个技巧](chapter02_best_practices/06_tips.md)
-* [2.7. Writing high-quality Python code](chapter02_best_practices/07_high_quality.md)
 * [2.7. 编写高质量的Python代码](chapter02_best_practices/07_high_quality.md)
-* [2.8. Writing unit tests with py.test](chapter02_best_practices/08_test.md)
 * [2.8. 使用py.test编写单元测试](chapter02_best_practices/08_test.md)
-* [2.9. Debugging code with IPython](chapter02_best_practices/09_debugging.md) *
 * [2.9. 使用IPython调试代码](chapter02_best_practices/09_debugging.md) *
 
 
-### [Chapter 3 : Mastering the Jupyter Notebook](chapter03_notebook)
 ### [第3章：掌握Jupyter Notebook](chapter03_notebook)
 
-* [3.1. Teaching programming in the Notebook with IPython blocks](chapter03_notebook/01_blocks.md)
 * [3.1. 使用IPython块在NoteBook中进行编程教学](chapter03_notebook/01_blocks.md)
-* [3.2. Converting a Jupyter notebook to other formats with nbconvert](chapter03_notebook/02_nbformat.md)
 * [3.2. 使用nbconvert将Jupyter Notebook转换为其他格式](chapter03_notebook/02_nbformat.md)
-* [3.3. Mastering widgets in the Jupyter Notebook](chapter03_notebook/03_widgets.md)
 * [3.3. 掌握Jupyter Notebook中的小部件](chapter03_notebook/03_widgets.md)
-* [3.4. Creating custom Jupyter Notebook widgets in Python, HTML, and JavaScript](chapter03_notebook/04_custom_widgets.md)
 * [3.4. 在Python、HTML和JavaScript中创建自定义Jupyter Notebook小部件](chapter03_notebook/04_custom_widgets.md)
-* [3.5. Configuring the Jupyter Notebook](chapter03_notebook/05_custom_notebook.md) *
 * [3.5. 配置Jupyter Notebook](chapter03_notebook/05_custom_notebook.md) *
-* [3.6. Introducing JupyterLab](chapter03_notebook/06_jupyterlab.md)
 * [3.6. 介绍JupyterLab](chapter03_notebook/06_jupyterlab.md)
 
 <!-- 
