@@ -75,7 +75,7 @@ Anaconda网站应该给您提供安装Anaconda系统的所有指示。要安装�
 
 > GitHub是一个为软件存储库提供免费和付费托管的商业服务。它是最流行的开源协作开发平台之一。
 
-**Pip** is the Python system manager. Contrary to `conda`, `pip` works with any Python distribution, not just with Anaconda. Packages installable by pip are stored on the Python Package Index available at https://pypi.python.org/pypi.
+**Pip**是Python系统管理器。与`conda`相反，`pip‘适用于任何Python发行版，而不仅仅是Anaconda。pip可安装的包存储在https://pypi.python.org/pypi.提供的PythonPackageIndex上
 
 conda中几乎所有可用的Python包都可以在pip中使用，但反之则不然。实际上，如果一个包在conda或conda-forge中不可用，那么它应该与`pip install somepackage`一起可用。Conda包通常包括为最常见平台编译的二进制文件，而pip包则不一定如此。pip包可能包含必须在本地编译的源代码(这需要安装和配置兼容的编译器)，但它们也可能包含编译后的二进制文件。
 
@@ -83,13 +83,12 @@ conda中几乎所有可用的Python包都可以在pip中使用，但反之则不
 
 以下是一些参考资料：
 
-* The Python webpage at https://www.python.org
-* Python on Wikipedia at https://en.wikipedia.org/wiki/Python_%28programming_language%29
-* Python's standard library at https://docs.python.org/3/library/
-* Conversation with Guido van Rossum on the birth of Python available at http://www.artima.com/intv/pythonP.html
-* History of scientific Python available at http://fr.slideshare.net/shoheihido/sci-pyhistory
-* History of the Jupyter Notebook at http://blog.fperez.org/2012/01/ipython-notebook-historical.html
-* JupyterCon at https://conferences.oreilly.com/jupyter/jup-ny
+* Python的网页 at https://www.python.org
+* 维基百科上的Python at https://en.wikipedia.org/wiki/Python_%28programming_language%29
+* Python标准库 at https://docs.python.org/3/library/
+* 与Guido van Rossum关于Python诞生的对话 at http://www.artima.com/intv/pythonP.html
+* 提供科学Python的历史 at http://fr.slideshare.net/shoheihido/sci-pyhistory
+* Jupyter Notebook的历史 at http://blog.fperez.org/2012/01/ipython-notebook-historical.html
 
 这里有一些关于科学Python的资源:
 

@@ -66,6 +66,7 @@ col1,col2,col3
 
 ![Output](04_magic_files/04_magic_11_0.png)
 
+We can access the returned object with `_`.
 我们可以使用`_`访问返回的对象。
 
 ```python
@@ -115,7 +116,6 @@ col1,col2,col3
 
 ![Output](04_magic_files/04_magic_18_0.png)
 
-## How it works...
 ## 它是如何工作的.。
 
 IPython扩展是一个Python模块，它实现顶级的load_ipython_extension(IPython)函数。当调用`%load_ext`魔法命令时，将加载模块，并调用`load_ipython_extension(ipython)`函数。此函数作为参数传递给当前的`InteractiveShell`实例。这个对象实现了几个方法，我们可以使用这些方法与当前的IPython会话进行交互。
@@ -151,10 +151,10 @@ IPython扩展是一个Python模块，它实现顶级的load_ipython_extension(IP
 
 以下是一些参考资料：
 
-* Documentation of IPython's extension system available at http://ipython.readthedocs.io/en/stable/config/extensions/index.html
-* Defining new magic commands explained at http://ipython.readthedocs.io/en/stable/config/custommagics.html
-* Index of IPython extensions at https://github.com/ipython/ipython/wiki/Extensions-Index
-* API reference of InteractiveShell available at http://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html
+* 提供IPython扩展系统的文档 http://ipython.readthedocs.io/en/stable/config/extensions/index.html
+* 定义新的魔法命令解释 http://ipython.readthedocs.io/en/stable/config/custommagics.html
+* IPython扩展索引 https://github.com/ipython/ipython/wiki/Extensions-Index
+* 提供InteractiveShell的API参考 at http://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html
 
 ## 另请参阅
 

@@ -96,7 +96,6 @@ array([ 1.217,  1.061,  1.781])
     1000 loops each)
 ```
 
-With NumPy, we went from 100 ms down to 1 ms to compute one million additions!
 使用NumPy，我们从100毫秒减少到1毫秒，计算了一百万次加法!
 
 8. 现在，我们要计算其他的东西:`x`或`xa`中的所有元素的和。虽然这不是一个元素操作，但是NumPy在这里仍然非常高效。纯Python版本在iterable上使用内置的`sum()`函数。NumPy版本在NumPy数组上使用`np.sum()`函数:
@@ -175,6 +174,7 @@ array([[ 0.635,  0.587,  ...,  0.849,  0.046],
     1000 loops each)
 ```
 
+Here again, we observe a significant speedup.
 在这里，我们再次观察到一个显著的加速。
 
 ## 它是如何工作的.。
@@ -200,14 +200,15 @@ Python中的切片语法很好地转换为NumPy中的数组索引。此外，我
 
 ## 还有更多...
 
+There's obviously much more to say about this subject. The prequel of this book, *Learning IPython for Interactive Computing and Data Visualization Second Edition*, contains more details about basic array operations. We will use the array data structure routinely throughout this book. Notably, *Chapter 4, Profiling and Optimization*, covers advanced techniques of using NumPy arrays.
 关于这个问题，显然还有更多的话要说。这本书的前传，**学习交互式计算和数据可视化第二版的IPython，包含更多关于基本数组操作的详细信息。我们将在整本书中经常使用数组数据结构。值得注意的是，**第4章，分析和优化*，涵盖了使用NumPy数组的高级技术。
 
 以下是一些参考资料:
 
-* 关于NumPy中ndarray的文档介绍  http://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html
-* 有关可用的NumPy数组的教程 https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
-* SciPy讲义中的NumPy数组， http://scipy-lectures.github.io/intro/numpy/array_object.html
-* MATLAB用户使用NumPy， https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html
+* 关于NumPy中ndarray的文档介绍 at http://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html
+* 有关可用的NumPy数组的教程 at https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
+* SciPy讲义中的NumPy数组， at http://scipy-lectures.github.io/intro/numpy/array_object.html
+* MATLAB用户使用NumPy， at https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html
 
 ## 另请参阅
 

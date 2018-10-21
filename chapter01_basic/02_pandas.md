@@ -51,7 +51,6 @@ df.head(2)
 
 ![Output](02_pandas_files/02_pandas_13_0.png)
 
-Here, every row contains the number of bicycles on every track of the city, for every day of the year.
 在这里，每一行都包含着城市每条车道上的自行车数量，当年每一天都是如此。
 
 5. 我们可以使用`describe()`方法得到该表的一些汇总统计信息:
@@ -132,20 +131,18 @@ def plot(n=(1, 30)):
 
 ## 它是如何工作的…
 
-要创建matplotlib图形，很好的做法是使用`plt.subplots()`命令创建一个图形(`config`)和一个或多个轴(子图、`ax`Object)。关键字参数允许我们指定数字的大小(以英寸为单位)。然后，我们直接在轴实例上调用绘图方法。例如，在这里，我们用`set_ylim()`方法设置了轴的y限制。如果有现有的绘图命令，比如Pandas在DataFrame实例上提供的`plot()`方法，我们可以使用`ax`关键字参数传递相关的Axis实例。
+要创建matplotlib图形，最好使用`plt.subplot()`命令创建一个图(`fig`)和一个或多个轴(子图，`ax`对象)。`figsize`关键字参数允许我们指定图形的大小(以英寸为单位)。然后，我们直接在Axes实例上调用绘图方法。例如，在这里，我们使用`set_ylim()`方法设置轴的y极限。如果存在现有的绘图命令，比如由panda在DataFrame实例上提供的`plot()`方法，我们可以通过`ax`关键字参数传递相关的Axis实例。 
 ## 还有更多...
 
 Pandas是Python中主要的数据整理(data wrangling)库。通常需要其他工具和方法进行更高级的分析(信号处理、统计和数学建模)。我们将在本书的第二部分中介绍这些步骤，从*第7章统计数据分析开始*。
 
-Here are some more references about data manipulation with pandas:
 下面是一些关于Pandas数据处理的参考资料:
 
-* *Learning IPython for Interactive Computing and Data Visualization Second Edition, Packt Publishing*, the prequel of this book
-* *Python for Data Analysis*, O'Reilly Media, by Wes McKinney, the creator of pandas, at http://shop.oreilly.com/product/0636920023784.do
-* *Python Data Science Handbook*, O'Reilly Media, by Jake VanderPlas, at http://shop.oreilly.com/product/0636920034919.do
-* The documentation of pandas available at http://pandas.pydata.org/pandas-docs/stable/
-* Usage guide of matplotlib, at https://matplotlib.org/tutorials/introductory/usage.html
-* matplotlib使用指南， https://matplotlib.org/tutorials/introductory/usage.html
+* **学习交互式计算和数据可视化的IPython第二版，Packt Publishing**，这本书的前传
+* **Python的数据分析**，O'Reilly Media，作者是Wes McKinney，Pandas的创造者， at http://shop.oreilly.com/product/0636920023784.do
+* **Python数据科学手册**，O‘Reilly Media，Jake Vanderplas， at http://shop.oreilly.com/product/0636920034919.do
+* 有Pandas的文件 at http://pandas.pydata.org/pandas-docs/stable/
+* matplotlib使用指南， at https://matplotlib.org/tutorials/introductory/usage.html
 
 ## 另请参阅
 

@@ -226,7 +226,6 @@ Available kernels:
   ...
 ```
 
-The `plotkernel.py` file needs to be importable by Python. For example, we could simply put it in the current directory.
 `plotkernel.py`文件需要导入到Python。例如，我们可以简单地将它放在当前目录中。
 
 10. 现在，如果我们刷新Jupyter主NoteBook页面(或者在需要重新启动Jupyter Notebook服务器之后)，我们会看到我们的绘图仪内核出现在内核列表中:

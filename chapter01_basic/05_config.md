@@ -120,6 +120,7 @@ ipython --RandomMagics.text='Your number is {n}.' \
 c.RandomMagics.text = 'random {n}'
 ```
 
+After launching IPython, `%random` prints a string like `random 652`.
 在启动IPython之后，`%random`打印一个字符串，比如`random 652`。
 
 ## 它是如何工作的.。
@@ -127,8 +128,11 @@ c.RandomMagics.text = 'random {n}'
 IPython的配置系统定义了几个概念：
 
 * **用户配置文件**是一组特定于用户的参数、日志和命令历史记录。在处理不同的项目时，用户可以拥有不同的配置文件。`xx`配置文件存储在`~/.ipython/profile_xx`中，其中`~‘是用户的主目录。
+    ; * On Linux, the path should be `/home/yourname/.ipython/profile_xxx`
     * 在Linux上，路径应该是`/home/youname/.ipython/profile_xxx`
+    ; * On macOS, the path should be `/Users/yourname/.ipython/profile_xxx`
     * 在macOS上，路径应该是`/Users/yourname/.ipython/profile_xxx`
+    ; * On Windows, the path should be `C:\Users\YourName\.ipython\profile_xxx`
     * 在Windows上，路径应该是`C: Users\YourName\.ipython\profile_xxx`
 * 一个**configuration 对象**，或`Config`，是一个包含键-值对的特殊Python字典。`Config`类源自Python的`dict`类。
 * `HasTraits`类是一个可以具有特殊`trait`属性的类。**字符**是具有特定类型和默认值的复杂Python属性。此外，当特征的值发生变化时，会自动透明地调用回调函数。这种机制允许在特征属性发生更改时通知类。
@@ -172,9 +176,9 @@ c.MyConfigurable.myvariable = 123.
 
 以下是一些参考资料：
 
-* Configuring and customizing IPython at http://ipython.readthedocs.io/en/stable/config/
-* Defining custom magics available at http://ipython.readthedocs.io/en/stable/config/custommagics.html
-* Detailed overview of the configuration system at https://traitlets.readthedocs.io/en/stable/config.html
+* 配置和自定义IPython at http://ipython.readthedocs.io/en/stable/config/
+* 定义可用的自定义魔法 at http://ipython.readthedocs.io/en/stable/config/custommagics.html
+* 配置系统的详细概述 at https://traitlets.readthedocs.io/en/stable/config.html
 
 ## 另请参阅
 

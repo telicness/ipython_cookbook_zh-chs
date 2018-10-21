@@ -80,7 +80,6 @@ Available cell magics:
 Automagic is ON, % prefix IS NOT needed for line magics.
 ```
 
-Cell magics have a `%%` prefix; they target entire code cells.
 单元格魔法有一个`%%`前缀;它们以整个代码单元为目标。
 
 6. 例如，`%%writefile`单元格魔法让我们创建一个文本文件。这个神奇的命令接受文件名作为参数。单元格中剩余的所有行都直接写入这个文本文件。在这里，我们创建一个文件`test.txt`并将`Hello world！`写入其中：
@@ -112,7 +111,6 @@ Hello world!
 
 ![Screenshot of the pager](01_notebook_files/01_notebook_29_0.png)
 
-The pager (a text area at the bottom of the screen) opens and shows the help of the `%run` magic command.
 在屏幕底部的文本区域会打开并显示`%Run`魔法命令的帮助。
 
 8. 我们介绍了IPython和NoteBook的基础知识。现在让我们来看看NoteBook的丰富的显示和交互功能。到目前为止，我们只创建了**代码单元格**(包含代码)。Jupyter支持其他类型的单元格。在NoteBook工具栏中，有一个下拉菜单来选择单元格的类型.代码单元之后最常见的单元格类型是**Markdown单元格**。
@@ -227,4 +225,4 @@ Jupyter Notebook前端还有其他实现，它们提供了与相同NoteBook文�
 ## 另请参阅
 
 * 开始在Jupyter Notebook上进行数据探索性分析
-* 介绍Jupyterlab
+* 引入Jupyterlab
